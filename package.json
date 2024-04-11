@@ -1,0 +1,16 @@
+{
+  "name": "wordpress-starter",
+  "version": "1.0.0",
+  "description": "Wordpress Starter",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass assets/sass/main.scss assets/css/main.css",
+    "sass-watch": "sass --watch assets/sass/main.scss assets/css/main.css"
+  },
+  "author": "Greg Slonina",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "latest"
+  }
+}

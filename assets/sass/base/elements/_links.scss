@@ -1,0 +1,25 @@
+a {
+	text-decoration: none;
+	color: $color__black;
+	font-weight: 400;
+	text-decoration: underline;
+	&:visited {
+		color: $color__black;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__black;
+		text-decoration: underline;
+	}
+
+	&:focus {
+		outline: thin dotted;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}

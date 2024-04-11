@@ -1,0 +1,27 @@
+.card-quote {
+    width: 550px;
+    height: 370px;
+    border: 1px solid $color__grey;
+    padding: 20px;
+    &__name {
+        color: $color__white;
+    }
+    &__title {
+        color: $color__white;
+    }
+    &__quote {
+        color: $color__white;
+    }
+}
+
+.contobox-slider__slide.card-quote {
+    width: 550px;
+    height: 370px;
+    flex: 1 0 550px;
+    @include screen__lt-md {
+        flex: 1 0 450px;
+    }
+    @include screen__lt-sm {
+        flex: 1 0 300px;
+    }
+}

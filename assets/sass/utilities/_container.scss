@@ -1,0 +1,39 @@
+@mixin container {
+  max-width: $max-width; /* 1 */
+  margin-left: auto; /* 2 */
+  margin-right: auto; /* 2 */
+  padding-left: 100px; /* 3 */
+  padding-right: 100px; /* 3 */
+  width: 100%; /* 1 */
+  position: relative;
+}
+
+.container {
+  max-width: $max-width; /* 1 */
+  margin-left: auto; /* 2 */
+  margin-right: auto; /* 2 */
+  padding-left: 100px; /* 3 */
+  padding-right: 100px; /* 3 */
+  width: 100%; /* 1 */
+
+  &--full-width {
+    @include container;
+    max-width: 100%;
+  }
+  &--medium {
+    @include container;
+    max-width: $max-width--medium;
+  }
+  &--small {
+    @include container;
+    max-width: $max-width--small;
+  }
+  @include screen__lt-xxl {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  @include screen__lt-md {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

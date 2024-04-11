@@ -1,0 +1,21 @@
+.slide-full-width {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('images/bg-bauhaus-light-scaled.jpeg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8rem;
+    color: $color__white;
+    @include screen__lt-lg {
+        padding: 4rem;
+    }
+    &__title {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    a {
+        color: $color__white;
+    }
+}

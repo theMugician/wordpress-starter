@@ -1,0 +1,42 @@
+
+$color__black: #000000;
+$color__grey--dark: #444444;
+$color__grey: #676767;
+$color__grey--light: #F2F2F2;
+$color__white: #ffffff;
+
+$colors: (
+  'primary' : #10162f,
+  'black' : #000000,
+  'grey--dark' : #444444,
+  'grey' : #676767,
+  'grey--light' : #F2F2F2,
+  'white': #fff
+);
+
+
+@each $name, $color in $colors {
+   .color__#{$name}{
+       color: $color;
+   }
+}
+
+@each $name, $color in $colors {
+   .background-color__#{$name}{
+       background-color: $color;
+   }
+}
+
+@each $name, $color in $colors {
+  :root {
+    --color__#{$name}: #{$color};
+  }
+}
+
+// @mixin color($name) {
+//   @each $colorname, $color in $colors {
+//     @if $name == $colorname {
+//       color: $color;
+//     }
+//   }
+// }

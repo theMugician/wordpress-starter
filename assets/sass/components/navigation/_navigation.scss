@@ -1,0 +1,65 @@
+.nav {
+	&__menu {
+		display: flex;
+		padding: 0;
+		@include screen__lt-md {
+			display: none;
+		}
+	}
+	&__item {
+		margin-left: 0;
+		list-style: none;
+		a {
+			align-self: center;
+			padding: 1rem;
+			color: $color__black;
+			text-decoration: none;
+			display: inline-block;
+		}
+		.button {
+			color: $color__black;
+			padding: 1.2rem 2rem;
+		}
+	}
+	.dropdown {
+		position: relative;
+		a {
+			cursor: pointer;
+		}
+		&__menu {
+			z-index: 1;
+			background: $color__white;
+			visibility: hidden;
+			border: 0.1rem solid $color__grey--light;  
+			opacity: 0;
+			min-width: 16rem;
+			position: absolute;
+			transition: all 0.2s ease;
+			left: 0;
+			margin-left: 0;
+			padding-left: 0;
+			&.is-active {
+				visibility: visible;
+				opacity: 1;
+			}
+		}
+	}
+	&__mobile-menu {
+		flex-direction: column;
+		.modal__container {
+			height: 100%;
+				width: 100%;
+		}
+		.nav__item {
+			margin-left: 0;
+			a {
+				padding: 2rem 0;
+				display: block;
+			}
+		}
+	}
+}
+
+li:focus-within a {
+  outline: none;
+}

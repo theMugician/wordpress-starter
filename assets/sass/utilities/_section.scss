@@ -1,0 +1,14 @@
+.section {
+	position: relative;
+	padding-top: $spacing;
+	padding-bottom: $spacing;
+	&--large {
+		padding-top: $spacing--large * 1.5;
+		padding-bottom: $spacing--large * 1.5;
+	}
+	&--small {
+		position: relative;
+		padding-top: $spacing;
+		padding-bottom: $spacing;
+	}
+}

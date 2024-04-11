@@ -1,0 +1,33 @@
+.card-image-content {
+    width: 360px;
+    list-style: none;
+    cursor: pointer;
+    @include screen__lt-md {
+        width: 320px;
+    }
+    &__image {
+        height: 320px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url('images/image-placeholder--dark.png');
+        position: relative;
+        border-radius: 20px;
+        @include screen__lt-md {
+            height: 300px;
+        }
+    }
+    &__content {
+        margin-top: 2rem;
+        position: relative;
+    }
+    &__title {
+        color: $color__black;
+        font-size: 1.87rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    &__description {
+        color: $color__black;
+    }
+}

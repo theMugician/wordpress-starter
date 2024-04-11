@@ -1,0 +1,32 @@
+.card {
+    background-color: $color__white;
+    padding: 40px;
+    border-radius: 20px;
+    &__title {
+        font-size: 2.3rem;
+    }
+    &__body {
+        font-size: 1.4rem;
+    }
+    &--background-image {
+        background-image: url("https://cbmedia3.contobox.com/uploads/480feaa28da2dcd1baaaaa34a3d4a0f2bg-bauhaus-dark-scaled.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        .card__title {
+            color: $color__white;
+        }
+        .card__body {
+            color: $color__white;
+        }
+    }
+    &--dark {
+        background-color: $color__grey--dark;
+        .card__title {
+            color: $color__white;
+        }
+        .card__body {
+            color: $color__white;
+        }
+    }
+}
