@@ -59,15 +59,15 @@ $header_menus   = wp_get_nav_menu_items( $header_menu_id );
 								} else {
 									?>
 									<li class="nav__item dropdown js-nav-item-dropdown">
-										<a class="dropdown__toggle">
+										<a id="header__dropdown-menu-link" class="dropdown__toggle" aria-expanded="false">
 											<?php echo esc_html( $menu_item->title ); ?>
 										</a>
-										<div class="dropdown__menu" aria-labelledby="dropdown04">
+										<div class="dropdown__menu" aria-labelledby="header__dropdown-menu-link">
 										<?php
 										foreach ( $child_menu_items as $child_menu_item ) {
 											$link_target = ! empty( $child_menu_item->target ) && '_blank' === $child_menu_item->target ? '_blank' : '_self';
 											?>
-											<a 
+											<a
 												class="dropdown__item"
 											   	href="<?php echo esc_url( $child_menu_item->url ); ?>"
 											   	target="<?php echo esc_attr( $link_target ); ?>"
@@ -82,8 +82,8 @@ $header_menus   = wp_get_nav_menu_items( $header_menu_id );
 									<?php
 								}
 							}
-						} ?> 
-
+						} 
+					?>
 					</ul>
 				</nav>
 				<?php 

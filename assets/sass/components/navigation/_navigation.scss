@@ -43,6 +43,9 @@
 				opacity: 1;
 			}
 		}
+		&__item {
+			text-wrap: nowrap;
+		}
 	}
 	&__mobile-menu {
 		flex-direction: column;
