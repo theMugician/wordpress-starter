@@ -7,12 +7,12 @@
 
 ?>
 
-	<footer class="footer">
+	<footer class="footer section container">
 		<div class="footer__info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', '_s' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				// printf( esc_html__( 'Proudly powered by %s', '_s' ), 'WordPress' );
+				printf( esc_html__( 'Proudly powered by %s', '_s' ), 'WordPress' );
 				?>
 			</a>
 			<span class="sep"> | </span>

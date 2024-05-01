@@ -40,7 +40,7 @@ $header_menus   = wp_get_nav_menu_items( $header_menu_id );
 					<ul class="nav__menu">
 					<?php
 						foreach ( $header_menus as $menu_item ) {
-							$link_target = ! empty( $menu_item->target ) && '_blank' === $menu_item->target ? '_blank' : '_self';
+							$link_target 		= ! empty( $menu_item->target ) && '_blank' === $menu_item->target ? '_blank' : '_self';
 							$child_menu_items   = $menu_class->get_child_menu_items( $header_menus, $menu_item->ID );
 							$has_children       = ! empty( $child_menu_items ) && is_array( $child_menu_items );
 							if ( ! $menu_item->menu_item_parent ) {
