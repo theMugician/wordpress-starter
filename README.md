@@ -15,3 +15,11 @@ Text domain : `wordpress-starter`
 File to change : `class-wordpress-starter.php`  
 It should match your class name with dashes and lowercase letters  
 If your class name is `New_Name` the file should be `class-new-name.php`
+
+## CSS
+Run `sass-watch` in the terminal  
+Compiles `assets/sass` folder to `assets/css/main`  
+This is your main css folder  
+
+## Javascript
+`assets/js/main.js` is your javascript folder
