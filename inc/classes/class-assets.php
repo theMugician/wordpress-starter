@@ -2,7 +2,7 @@
 /**
  * Enqueue theme assets
  *
- * @package wordpress-starter
+ * @package Wordpress_Starter
  */
 
 namespace Wordpress_Starter\Inc;

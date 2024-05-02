@@ -3,7 +3,7 @@
  * Autoloader file for theme.
  *
  * @link https://github.com/imranhsayed/aquila/blob/master/inc/helpers/autoloader.php
- * @package wordpress-starter
+ * @package Wordpress_Starter
  */
 
 namespace Wordpress_Starter\Inc\Helpers;

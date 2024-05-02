@@ -2,7 +2,7 @@
 /**
  * Register Menus
  *
- * @package Aquila
+ * @package Wordpress_Starter
  */
 
 namespace Wordpress_Starter\Inc;

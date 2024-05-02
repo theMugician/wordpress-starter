@@ -6,6 +6,7 @@ Created by Greg Slonina
 ## Get started
 
 ### Search and replace these keywords and variables
-Wordpress_Starter
-WORDPRESS_STARTER
-@package wordpress-starter
+Package name : `@package Wordpress_Starter`
+Class : `Wordpress_Starter`
+Constant : `WORDPRESS_STARTER`
+Text domain : `wordpress-starter`

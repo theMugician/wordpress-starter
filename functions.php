@@ -2,7 +2,7 @@
 /**
  * Theme Functions.
  *
- * @package wordpress-starter
+ * @package Wordpress_Starter
  */
 
 

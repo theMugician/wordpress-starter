@@ -2,7 +2,7 @@
 /**
  * Header
  *
- * @package wordpress-starter
+ * @package Wordpress_Starter
  */
 
 

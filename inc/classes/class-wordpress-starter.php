@@ -2,7 +2,7 @@
 /**
  * Bootstraps the Theme.
  *
- * @package wordpress-starter
+ * @package Wordpress_Starter
  */
 
 namespace Wordpress_Starter\Inc;
