@@ -2,7 +2,7 @@
 /**
  * Bootstraps the Theme.
  *
- * @package Aquila
+ * @package wordpress-starter
  */
 
 namespace Wordpress_Starter\Inc;
@@ -181,7 +181,7 @@ class Wordpress_Starter {
 		 * @see add_editor_style(
 		 * @link https://developer.wordpress.org/reference/functions/add_editor_style/
 		 */
-		add_editor_style( 'assets/build/css/editor.css' );
+		add_editor_style( 'assets/css/editor.css' );
 
 		// Remove the core block patterns
 		// remove_theme_support( 'core-block-patterns' );
