@@ -13,6 +13,5 @@ Text domain : `wordpress-starter`
 
 ### Change this filename
 File to change : `class-wordpress-starter.php`  
-
-* It should match your class name with dashes and lowercase letters  
+It should match your class name with dashes and lowercase letters  
 If your class name is `New_Name` the file should be `class-new-name.php`
