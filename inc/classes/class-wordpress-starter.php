@@ -137,6 +137,39 @@ class Wordpress_Starter {
 			]
 		);
 
+		/**
+		 * Add custom color palette that overwrites the existing color palette
+		 */
+		$color_palette = [
+			[
+				'name' => esc_attr__('Black', 'default'),
+				'slug' => 'black',
+				'color' => '#000000',
+			],
+			[
+				'name' => esc_attr__('Grey Dark', 'default'),
+				'slug' => 'grey--dark',
+				'color' => '#444444',
+			],
+			[
+				'name' => esc_attr__('Grey', 'default'),
+				'slug' => 'grey',
+				'color' => '#676767',
+			],
+			[
+				'name' => esc_attr__('Grey Light', 'default'),
+				'slug' => 'grey--light',
+				'color' => '#F2F2F2',
+			],
+			[
+				'name' => esc_attr__('White', 'default'),
+				'slug' => 'white',
+				'color' => '#FFFFFF',
+			],
+		];
+
+		add_theme_support( 'editor-color-palette', $color_palette );
+
 		// Gutenberg theme support.
 
 		/**

@@ -28,6 +28,15 @@ $colors: (
 }
 
 @each $name, $color in $colors {
+  .has-#{$name}-color {
+      color: $color;
+  }
+  .has-#{$name}-background-color {
+      background-color: $color;
+  }
+}
+
+@each $name, $color in $colors {
   :root {
     --color__#{$name}: #{$color};
   }
