@@ -1553,6 +1553,23 @@ li:focus-within a {
   outline: none;
 }
 
+/* Navigation Modal
+--------------------------------------------- */
+.nav-modal {
+  background-color: #ffffff;
+}
+.nav-modal .nav__menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-modal .modal__close:visited {
+  color: #000000;
+}
+.nav-modal .modal__close:hover {
+  color: #000000;
+}
+
 /* Slide Full Width
 --------------------------------------------- */
 .slide-full-width {

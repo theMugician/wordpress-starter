@@ -1,0 +1,19 @@
+.nav-modal {
+    background-color: $color__white;
+    .nav {
+        &__menu {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+.nav-modal .modal__close {
+    &:visited {
+        color: $color__black;
+    }
+    &:hover {
+        color: $color__black;
+
+    }
+}

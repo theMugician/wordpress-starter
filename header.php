@@ -97,8 +97,8 @@ $header_menus   = wp_get_nav_menu_items( $header_menu_id );
 				</div>
 				-->
 				<a
-					class="header__burger js-toggle-navigation"
-					href="#navigation"
+					class="header__burger js-toggle-modal"
+					href="#nav-modal"
 				>
 					<span></span>
 					<span></span>
