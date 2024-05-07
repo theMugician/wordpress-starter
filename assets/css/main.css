@@ -1482,6 +1482,18 @@ textarea {
   height: auto;
 }
 
+/* Post Navigation
+--------------------------------------------- */
+.post-navigation {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+.post-navigation .nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Navigation
 --------------------------------------------- */
 .nav__menu {
@@ -1764,6 +1776,21 @@ li:focus-within a {
   .header__burger {
     display: block;
   }
+}
+
+/* Single Post style */
+.post .entry-title {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.3;
+}
+.post .entry-content {
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /*--------------------------------------------------------------

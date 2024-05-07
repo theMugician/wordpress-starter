@@ -23,10 +23,14 @@ get_header();
 				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 				 */
 				get_template_part( 'template-parts/content-single' );
-
 			endwhile;
 
-			the_posts_navigation();
+			the_post_navigation(
+				array(
+					'prev_text'					 => __( 'Previous: %title' ),
+					'next_text'					 => __( 'Next: %title' ),
+				)
+			);
 
 		else :
 
