@@ -1556,7 +1556,7 @@ li:focus-within a {
 /* Navigation Modal
 --------------------------------------------- */
 .nav-modal {
-  background-color: #ffffff;
+  background-color: #F2F2F2;
 }
 .nav-modal .nav__menu {
   display: flex;
