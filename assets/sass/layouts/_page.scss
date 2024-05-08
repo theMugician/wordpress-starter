@@ -1,0 +1,18 @@
+article.page {
+    .entry-content {
+        max-width: 1000px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: auto;
+    }
+}
+
+.page-template-fullwidth {
+    article.page {
+        .entry-content {
+            max-width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
