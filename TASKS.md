@@ -22,3 +22,12 @@ Translation Variable
 
 ## Documentation
 How to use certain components like modals and dropdowns
+
+## Pages
+Tours - Hide for now?
+Events - Add more info/events
+Deal Directory - Restyle
+Private Chef Directory - Hide for now?
+Dinner Groups - Restyle
+Where do I get - Add more info
+Vegan Stores and Markets - Add more info
